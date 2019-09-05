@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185035012320AAD400ACD107 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185035002320AAD400ACD107 /* AppDelegate.m */; };
+		185035042320AAD400ACD107 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185035032320AAD400ACD107 /* ViewController.m */; };
+		185035072320AAD500ACD107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185035052320AAD500ACD107 /* Main.storyboard */; };
+		185035092320AAE700ACD107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185035082320AAE700ACD107 /* Assets.xcassets */; };
+		1850350C2320AAE700ACD107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1850350A2320AAE700ACD107 /* LaunchScreen.storyboard */; };
+		1850350F2320AAE700ACD107 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850350E2320AAE700ACD107 /* main.m */; };
+		185035192320AAE700ACD107 /* ULockDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185035182320AAE700ACD107 /* ULockDemoTests.m */; };
+		185035242320AAE800ACD107 /* ULockDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185035232320AAE800ACD107 /* ULockDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		185035152320AAE700ACD107 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185034F42320AAD400ACD107 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185034FB2320AAD400ACD107;
+			remoteInfo = ULockDemo;
+		};
+		185035202320AAE800ACD107 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185034F42320AAD400ACD107 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185034FB2320AAD400ACD107;
+			remoteInfo = ULockDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		185034FC2320AAD400ACD107 /* ULockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ULockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185034FF2320AAD400ACD107 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		185035002320AAD400ACD107 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		185035022320AAD400ACD107 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		185035032320AAD400ACD107 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		185035062320AAD500ACD107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		185035082320AAE700ACD107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1850350B2320AAE700ACD107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1850350D2320AAE700ACD107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1850350E2320AAE700ACD107 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		185035142320AAE700ACD107 /* ULockDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ULockDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		185035182320AAE700ACD107 /* ULockDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ULockDemoTests.m; sourceTree = "<group>"; };
+		1850351A2320AAE700ACD107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1850351F2320AAE800ACD107 /* ULockDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ULockDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		185035232320AAE800ACD107 /* ULockDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ULockDemoUITests.m; sourceTree = "<group>"; };
+		185035252320AAE800ACD107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185034F92320AAD400ACD107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185035112320AAE700ACD107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1850351C2320AAE800ACD107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185034F32320AAD400ACD107 = {
+			isa = PBXGroup;
+			children = (
+				185034FE2320AAD400ACD107 /* ULockDemo */,
+				185035172320AAE700ACD107 /* ULockDemoTests */,
+				185035222320AAE800ACD107 /* ULockDemoUITests */,
+				185034FD2320AAD400ACD107 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		185034FD2320AAD400ACD107 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185034FC2320AAD400ACD107 /* ULockDemo.app */,
+				185035142320AAE700ACD107 /* ULockDemoTests.xctest */,
+				1850351F2320AAE800ACD107 /* ULockDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185034FE2320AAD400ACD107 /* ULockDemo */ = {
+			isa = PBXGroup;
+			children = (
+				185034FF2320AAD400ACD107 /* AppDelegate.h */,
+				185035002320AAD400ACD107 /* AppDelegate.m */,
+				185035022320AAD400ACD107 /* ViewController.h */,
+				185035032320AAD400ACD107 /* ViewController.m */,
+				185035052320AAD500ACD107 /* Main.storyboard */,
+				185035082320AAE700ACD107 /* Assets.xcassets */,
+				1850350A2320AAE700ACD107 /* LaunchScreen.storyboard */,
+				1850350D2320AAE700ACD107 /* Info.plist */,
+				1850350E2320AAE700ACD107 /* main.m */,
+			);
+			path = ULockDemo;
+			sourceTree = "<group>";
+		};
+		185035172320AAE700ACD107 /* ULockDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				185035182320AAE700ACD107 /* ULockDemoTests.m */,
+				1850351A2320AAE700ACD107 /* Info.plist */,
+			);
+			path = ULockDemoTests;
+			sourceTree = "<group>";
+		};
+		185035222320AAE800ACD107 /* ULockDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				185035232320AAE800ACD107 /* ULockDemoUITests.m */,
+				185035252320AAE800ACD107 /* Info.plist */,
+			);
+			path = ULockDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185034FB2320AAD400ACD107 /* ULockDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185035282320AAE800ACD107 /* Build configuration list for PBXNativeTarget "ULockDemo" */;
+			buildPhases = (
+				185034F82320AAD400ACD107 /* Sources */,
+				185034F92320AAD400ACD107 /* Frameworks */,
+				185034FA2320AAD400ACD107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ULockDemo;
+			productName = ULockDemo;
+			productReference = 185034FC2320AAD400ACD107 /* ULockDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		185035132320AAE700ACD107 /* ULockDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1850352B2320AAE800ACD107 /* Build configuration list for PBXNativeTarget "ULockDemoTests" */;
+			buildPhases = (
+				185035102320AAE700ACD107 /* Sources */,
+				185035112320AAE700ACD107 /* Frameworks */,
+				185035122320AAE700ACD107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185035162320AAE700ACD107 /* PBXTargetDependency */,
+			);
+			name = ULockDemoTests;
+			productName = ULockDemoTests;
+			productReference = 185035142320AAE700ACD107 /* ULockDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1850351E2320AAE800ACD107 /* ULockDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1850352E2320AAE800ACD107 /* Build configuration list for PBXNativeTarget "ULockDemoUITests" */;
+			buildPhases = (
+				1850351B2320AAE800ACD107 /* Sources */,
+				1850351C2320AAE800ACD107 /* Frameworks */,
+				1850351D2320AAE800ACD107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185035212320AAE800ACD107 /* PBXTargetDependency */,
+			);
+			name = ULockDemoUITests;
+			productName = ULockDemoUITests;
+			productReference = 1850351F2320AAE800ACD107 /* ULockDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185034F42320AAD400ACD107 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = coder;
+				TargetAttributes = {
+					185034FB2320AAD400ACD107 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					185035132320AAE700ACD107 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 185034FB2320AAD400ACD107;
+					};
+					1850351E2320AAE800ACD107 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 185034FB2320AAD400ACD107;
+					};
+				};
+			};
+			buildConfigurationList = 185034F72320AAD400ACD107 /* Build configuration list for PBXProject "ULockDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185034F32320AAD400ACD107;
+			productRefGroup = 185034FD2320AAD400ACD107 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185034FB2320AAD400ACD107 /* ULockDemo */,
+				185035132320AAE700ACD107 /* ULockDemoTests */,
+				1850351E2320AAE800ACD107 /* ULockDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185034FA2320AAD400ACD107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1850350C2320AAE700ACD107 /* LaunchScreen.storyboard in Resources */,
+				185035092320AAE700ACD107 /* Assets.xcassets in Resources */,
+				185035072320AAD500ACD107 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185035122320AAE700ACD107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1850351D2320AAE800ACD107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185034F82320AAD400ACD107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185035042320AAD400ACD107 /* ViewController.m in Sources */,
+				1850350F2320AAE700ACD107 /* main.m in Sources */,
+				185035012320AAD400ACD107 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185035102320AAE700ACD107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185035192320AAE700ACD107 /* ULockDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1850351B2320AAE800ACD107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185035242320AAE800ACD107 /* ULockDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		185035162320AAE700ACD107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185034FB2320AAD400ACD107 /* ULockDemo */;
+			targetProxy = 185035152320AAE700ACD107 /* PBXContainerItemProxy */;
+		};
+		185035212320AAE800ACD107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185034FB2320AAD400ACD107 /* ULockDemo */;
+			targetProxy = 185035202320AAE800ACD107 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		185035052320AAD500ACD107 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185035062320AAD500ACD107 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1850350A2320AAE700ACD107 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1850350B2320AAE700ACD107 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185035262320AAE800ACD107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		185035272320AAE800ACD107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185035292320AAE800ACD107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ULockDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hl.ULockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1850352A2320AAE800ACD107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ULockDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hl.ULockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1850352C2320AAE800ACD107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ULockDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hl.ULockDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ULockDemo.app/ULockDemo";
+			};
+			name = Debug;
+		};
+		1850352D2320AAE800ACD107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ULockDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hl.ULockDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ULockDemo.app/ULockDemo";
+			};
+			name = Release;
+		};
+		1850352F2320AAE800ACD107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ULockDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hl.ULockDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ULockDemo;
+			};
+			name = Debug;
+		};
+		185035302320AAE800ACD107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ULockDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hl.ULockDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ULockDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185034F72320AAD400ACD107 /* Build configuration list for PBXProject "ULockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185035262320AAE800ACD107 /* Debug */,
+				185035272320AAE800ACD107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185035282320AAE800ACD107 /* Build configuration list for PBXNativeTarget "ULockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185035292320AAE800ACD107 /* Debug */,
+				1850352A2320AAE800ACD107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1850352B2320AAE800ACD107 /* Build configuration list for PBXNativeTarget "ULockDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1850352C2320AAE800ACD107 /* Debug */,
+				1850352D2320AAE800ACD107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1850352E2320AAE800ACD107 /* Build configuration list for PBXNativeTarget "ULockDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1850352F2320AAE800ACD107 /* Debug */,
+				185035302320AAE800ACD107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185034F42320AAD400ACD107 /* Project object */;
+}
