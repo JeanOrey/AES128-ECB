@@ -15,6 +15,7 @@
 		1850350F2320AAE700ACD107 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850350E2320AAE700ACD107 /* main.m */; };
 		185035192320AAE700ACD107 /* ULockDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185035182320AAE700ACD107 /* ULockDemoTests.m */; };
 		185035242320AAE800ACD107 /* ULockDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185035232320AAE800ACD107 /* ULockDemoUITests.m */; };
+		185035362320B2A300ACD107 /* NSData+AES128.m in Sources */ = {isa = PBXBuildFile; fileRef = 185035352320B2A300ACD107 /* NSData+AES128.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1850351F2320AAE800ACD107 /* ULockDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ULockDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		185035232320AAE800ACD107 /* ULockDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ULockDemoUITests.m; sourceTree = "<group>"; };
 		185035252320AAE800ACD107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185035342320B2A300ACD107 /* NSData+AES128.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+AES128.h"; sourceTree = "<group>"; };
+		185035352320B2A300ACD107 /* NSData+AES128.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES128.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				185035002320AAD400ACD107 /* AppDelegate.m */,
 				185035022320AAD400ACD107 /* ViewController.h */,
 				185035032320AAD400ACD107 /* ViewController.m */,
+				185035342320B2A300ACD107 /* NSData+AES128.h */,
+				185035352320B2A300ACD107 /* NSData+AES128.m */,
 				185035052320AAD500ACD107 /* Main.storyboard */,
 				185035082320AAE700ACD107 /* Assets.xcassets */,
 				1850350A2320AAE700ACD107 /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				185035042320AAD400ACD107 /* ViewController.m in Sources */,
 				1850350F2320AAE700ACD107 /* main.m in Sources */,
+				185035362320B2A300ACD107 /* NSData+AES128.m in Sources */,
 				185035012320AAD400ACD107 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,7 +442,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BL3NP5XNEQ;
 				INFOPLIST_FILE = ULockDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +460,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BL3NP5XNEQ;
 				INFOPLIST_FILE = ULockDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
